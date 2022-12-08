@@ -100,7 +100,7 @@ model = Generator(100, 128, 3, 768, 256)
 
 
 model.load_state_dict(torch.load(
-    'D:\edai\generator_50k.pth', map_location='cpu'))
+    'generator_50k.pth', map_location='cpu'))
 
 model.eval()
 
